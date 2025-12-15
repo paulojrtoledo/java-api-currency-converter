@@ -13,6 +13,7 @@ Secure API key management using environment variables
 📁 Project Structure
 text
 currency-converter/
+
 ├── src/main/java/
 
 │   ├── Main.java                 # Application entry point and menu logic
