@@ -14,11 +14,18 @@ Secure API key management using environment variables
 text
 currency-converter/
 ├── src/main/java/
+
 │   ├── Main.java                 # Application entry point and menu logic
+
 │   ├── ExchangeRateService.java  # API communication and rate fetching
+
 │   └── InvalidInputException.java # Custom exception for input validation
+
 ├── .env.example                  # Environment variable template
+
 ├── .gitignore                    # Git exclusion rules
+
+
 └── pom.xml                       # Maven dependencies
 ⚙️ Setup Instructions
 Prerequisites
