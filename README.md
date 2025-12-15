@@ -40,6 +40,7 @@ Ensure .env is listed in .gitignore
 Running the Application
 bash
 mvn compile exec:java -Dexec.mainClass="Main"
+
 🔒 Security Note
 API keys are never hardcoded. The application reads credentials from environment variables or .env files, keeping sensitive data out of version control.
 
